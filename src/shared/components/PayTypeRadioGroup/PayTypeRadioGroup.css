@@ -1,0 +1,31 @@
+.red{
+    color:red
+}
+.PayTypeRadioGroup .ant-radio-button-wrapper{
+    width: 120px;
+    height: 40px;
+    margin:10px 20px 10px 0px;
+    border-radius:0px;
+    line-height:40px
+  }
+
+.PayTypeRadioGroup  .ant-radio-button-wrapper-checked{
+    position: relative;
+}
+
+.PayTypeRadioGroup  .ant-radio-button-wrapper-checked:after{
+    content:'✓';
+    display: block;
+    width:20px;
+    height: 20px;
+
+    line-height: 25px;
+    text-align: right;
+    
+    background: linear-gradient(135deg, #fff 15px,#1890ff 10px); 
+    color:#fff;
+
+    position: absolute;
+    right:0px;
+    top: 18px;
+}

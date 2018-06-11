@@ -1,0 +1,83 @@
+
+/* Layout */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+}
+/* Layout */
+
+/* Common */
+.ant-btn {
+  margin-right: 8px;
+}
+/* Common */
+
+/* Table */
+.table-toolbar {
+  display: flex;
+  margin: 15px 0;
+}
+.table-toolbar > div {
+  flex: 1 1;
+}
+.table-toolbar .extra {
+  text-align: right;
+}
+.table-toolbar .ant-btn {
+  margin-right: 8px;
+}
+/* Table */
+
+/* queryToolbar start*/
+.queryToolbarRightside:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.queryToolbarRightside .ant-form-item{
+  float: left;
+  margin: 0px 5px 0px 0px
+}
+.queryToolbarRightside .ant-form-item-control{
+  line-height: normal
+}
+
+.toolBarContentWrapper .ant-radio-button-wrapper{
+  margin-right:10px;
+  border-radius:4px 4px 4px 4px;
+}
+
+/* queryToolbar end*/
+
+/* common start*/
+.invisible {height: 0px;overflow: 'hidden';visibility: 'hidden';opacity: 0;}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.float_l {float: left;}
+
+.float_r {float: right;}
+/* common end*/

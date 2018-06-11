@@ -1,0 +1,16 @@
+export const enum WarehouseAPI {
+  Base = '/v1/warehouse',
+  SetDefault = '/v1/warehouse/isDefault',
+  SetStatus = '/v1/warehouse/isLock',
+  LoadAll = '/v1/warehouse/select',
+  stockList = '/v1/stock/list',
+  createInOut = '/v1/stock',
+  inOutDetail = '/v1/stock',
+  InOutList = '/v1/stock/out_in',
+  Transfer = '/v1/stock/transfers',
+  createTransfer = '/v1/stock/transfer',
+  TransferDetail = '/v1/stock/transfer',
+  TransferLog = '/v1/stock/transfer/operate_log',
+  stockIn = '/v1/stock/transfer/stock_in',
+  stockCancel = '/v1/stock/transfer/stock_cancel',
+}
